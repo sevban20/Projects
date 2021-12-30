@@ -1,5 +1,5 @@
 # Projects
-It's about Sevban Kocael's projects 
+It's about Sevban Kocael's projects. New projects will add.
 
 ## Fateining Farm Project
 This is Arduino Nano-based project. It has 4 buttons to control menu operations. It can work in 2 modes: Automatic feed and cleaning bed of animals like cattle, sheep, etc., another mode is that manual feed and clean. It has 2 silos to store food. Every silo has its own motor that discharges food to the mixer. Mixer prepares food. After that, the conveyor starts feeding.
