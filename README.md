@@ -10,4 +10,4 @@ It has a cleaning unit to clean the ground. In addition, it has an RTC module to
 ## ESP
 
 ### Home Automation Board
-This is ESP8266 based project. It can control 4 pcs relays. Every relay also has an LED display to show work situations. To detect light density it has a photocell. To measure temperature and humidity to placed DHT22 sensor. An RGB LED for status information. It can power up to 5V-36V. It is going to connect the firebase real-time database so it can control by mobile application.
+This is ESP8266 based project. It can control 4 pcs relays. Every relay also has an LED display to show work situations. To detect light density it has a photocell. To measure temperature and humidity to placed DHT22 sensor. It can power up to 5V-36V. The power unit of the board is based on LM2596S. It is going to connect the firebase real-time database so it can control by mobile application or any remote-controllable app.
