@@ -1,0 +1,38 @@
+Partlist exported from C:/Users/sevba/Documents/EAGLE/projects/Ev Otomasyonu/Ev Otomasyonu.sch at 3.02.2022 10:41
+
+Part    Value            Device                     Package              Description                                                                                                     
+C1      680uf            CPOL-EU153CLV-0405         153CLV-0405          POLARIZED CAPACITOR, European symbol                                                                            
+C2      220uF            CPOL-EU153CLV-0405         153CLV-0405          POLARIZED CAPACITOR, European symbol                                                                            
+D2      1N4007           DIODE-DO214AC              DO214AC              DIODE                                                                                                           
+D3      1N4007           DIODE-DO214AC              DO214AC              DIODE                                                                                                           
+D4      1N4007           DIODE-DO214AC              DO214AC              DIODE                                                                                                           
+D5      OUT 1            LEDCHIPLED_1206            CHIPLED_1206         LED                                                                                                             
+D6      OUT 2            LEDCHIPLED_1206            CHIPLED_1206         LED                                                                                                             
+D7      OUT 4            LEDCHIPLED_1206            CHIPLED_1206         LED                                                                                                             
+D8      OUT 3            LEDCHIPLED_1206            CHIPLED_1206         LED                                                                                                             
+D9      B340A-E3/61T     DIODE-DO214AC              DO214AC              DIODE                                                                                                           
+D10     1N4007           DIODE-DO214AC              DO214AC              DIODE                                                                                                           
+ESP8266 ESP12E_DEVKIT    ESP12E_DEVKIT              ESP12E_DEVKIT        ESP12E DEVKIT BOARD                                                                                             
+IC1     LM2596S          LM2596S                    TO263-5              SIMPLE SWITCHER® Power Converter 150 kHz 3A Step-Down Voltage Regulator                                         
+J1      OUT 1            CONN_03-SCREW-5MM          SCREWTERMINAL-5MM-3  Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections 
+J2      OUT 3            CONN_03-SCREW-5MM          SCREWTERMINAL-5MM-3  Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections 
+J3      OUT 4            CONN_03-SCREW-5MM          SCREWTERMINAL-5MM-3  Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections 
+J4      OUT 2            CONN_03-SCREW-5MM          SCREWTERMINAL-5MM-3  Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections 
+J5      694106301002     694106301002               694106301002         CONN PWR JACK 2.1X5.5MM SOLDER                                                                                  
+K1      SIEMENS_V23082   SIEMENS_V23082_RELAY       SIEMENS_V23082_RELAY SIEMENS V23082 3V relay                                                                                         
+K2      SIEMENS_V23082   SIEMENS_V23082_RELAY       SIEMENS_V23082_RELAY SIEMENS V23082 3V relay                                                                                         
+K3      SIEMENS_V23082   SIEMENS_V23082_RELAY       SIEMENS_V23082_RELAY SIEMENS V23082 3V relay                                                                                         
+K4      SIEMENS_V23082   SIEMENS_V23082_RELAY       SIEMENS_V23082_RELAY SIEMENS V23082 3V relay                                                                                         
+L1      33µH/±20%/1.4A   INDUCTOR-SRN6045-33UH      SRN6045              Inductors                                                                                                       
+R1      PHOTOCELLPTH-KIT PHOTOCELLPTH-KIT           PHOTOCELL-KIT        Photocell (Photodetector, Photo Resistor, CdS)                                                                  
+R2      1k               R_CHIP-0402(1005-METRIC)   RESC1005X40          Resistor Fixed - Generic                                                                                        
+R3      10k              R_CHIP-0402(1005-METRIC)   RESC1005X40          Resistor Fixed - Generic                                                                                        
+R4      330              R-EU_R0805                 R0805                RESISTOR, European symbol                                                                                       
+R5      330              R-EU_R0805                 R0805                RESISTOR, European symbol                                                                                       
+R6      330              R-EU_R0805                 R0805                RESISTOR, European symbol                                                                                       
+R7      330              R-EU_R0805                 R0805                RESISTOR, European symbol                                                                                       
+T1      2N2222           MMBT2222ALT1-NPN-SOT23-BEC SOT23-BEC            NPN Transistror                                                                                                 
+T2      2N2222           MMBT2222ALT1-NPN-SOT23-BEC SOT23-BEC            NPN Transistror                                                                                                 
+T3      2N2222           MMBT2222ALT1-NPN-SOT23-BEC SOT23-BEC            NPN Transistror                                                                                                 
+T4      2N2222           MMBT2222ALT1-NPN-SOT23-BEC SOT23-BEC            NPN Transistror                                                                                                 
+U1      DHT22            DHT22                      DHT22                                                                                                                                
