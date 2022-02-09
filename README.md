@@ -11,3 +11,6 @@ It has a cleaning unit to clean the ground. In addition, it has an RTC module to
 
 ### Home Automation Board
 This is ESP8266 based project. It can control 4 pcs relays. Every relay also has an LED display to show work situations. To detect light density it has a photocell. To measure temperature and humidity to placed DHT22 sensor. It can power up to 5V-36V. The power unit of the board is based on LM2596S. It is going to connect the firebase real-time database so it can control by mobile application or any remote-controllable app.
+
+## LED Dimmer
+It is a led dimmer using LM555. There are one INPUT and one OUTPUT. It works with 12V. The brightness is adjustable with a 50K potentiometer. The maximum current is 3A.To control led used TO-220 package N channel MOSFET-IRFZ44N-.
