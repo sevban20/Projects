@@ -22,6 +22,7 @@ class getJob:
         id = 1
         for job in jobs:
             jobName = job.find("a").text.strip()
+            compName = job.find("h3",{"class":"joblist-comp-name"}).text.strip()
             description = job.find("ul",{"class":"list-job-dtl"}).find_all("li")[0].text
             l=len(description)
             description=description[:l-13].strip()
@@ -31,6 +32,7 @@ class getJob:
             jobList.update({
             id :{
                 'jobName':jobName,
+                'compName':compName,
                 'description':description,
                 'skills':skills,
                 'date':date,
@@ -38,7 +40,7 @@ class getJob:
                 }
             })
             id+=1
-            print(f"\nJob Name:{jobName}\n{description}\nSkills: {skills}\n{date}\nTo Apply:{link}")
+            print(f"\nJob Name:{jobName}\nCompany: {compName}\n{description}\nSkills: {skills}\n{date}\nTo Apply:{link}")
             print("----------------------------------------")
 
 keyword = input("Enter job keyword: ")
@@ -55,7 +57,7 @@ getJob = getJob(keyword,location,experience,resultSize)
 
 if len(keyword)>0:
     getJob.getUrl()
-    save = input("Save results press 1")
+    save = input("Save results press 1: ")
     save = save.strip()
     if save == "1":
         with open ("jobList.json","w") as f:
