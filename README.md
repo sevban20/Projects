@@ -18,9 +18,16 @@ It is a led dimmer using LM555. There are one INPUT and one OUTPUT. It works wit
 ## Web Scraping
 ### Get Jobs
 This is a search job from timesjob.com. A user defines keyword and other options, the script search jobs from the website and shows all of them to the user. The input choices are Keyword, Number of pages, and location experience. If the user wants to save results, there is an option to save JSON format. <br />
+<<<<<<< HEAD
 Keyword(Required): Jobs keywords <br />
 Number of Pages(Optional): How many pages will list <br />
 Location(Optional): Job's location <br />
 Experience(Optional): About Years <br />
+=======
+Keyword(Required): Jobs keywords <br /> 
+Number of Pages(Optional): How many pages will list
+Location(Optional): Job's location
+Experience(Optional): About Years
+>>>>>>> 2b29d4770b980bb8dfa6b9cedafa910128f89e18
 ### Get Last Topic
 This script is working for that when the new topic opens the donanimhaber sicak firsatlar, the script gets the topic immediately. The user can see the last opened topic. If a day passed the topic's opened date the topic automatically will delete.
