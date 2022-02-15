@@ -17,8 +17,8 @@ It is a led dimmer using LM555. There are one INPUT and one OUTPUT. It works wit
 
 ## Web Scraping
 ### Get Jobs
-This is a search job from timesjob.com. A user defines keyword and other options, the script search jobs from the website and shows all of them to the user. The input choices are Keyword, Number of pages, and location experience. If the user wants to save results, there is an option to save JSON format.
-Keyword(Required): Jobs keywords__ 
+This is a search job from timesjob.com. A user defines keyword and other options, the script search jobs from the website and shows all of them to the user. The input choices are Keyword, Number of pages, and location experience. If the user wants to save results, there is an option to save JSON format. <br />
+Keyword(Required): Jobs keywords <br /> 
 Number of Pages(Optional): How many pages will list
 Location(Optional): Job's location
 Experience(Optional): About Years
