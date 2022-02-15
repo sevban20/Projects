@@ -15,10 +15,12 @@ This is ESP8266 based project. It can control 4 pcs relays. Every relay also has
 ## LED Dimmer
 It is a led dimmer using LM555. There are one INPUT and one OUTPUT. It works with 12V. The brightness is adjustable with a 50K potentiometer. The maximum current is 3A.To control led used TO-220 package N channel MOSFET-IRFZ44N-.
 
-### Web Scraping
-## Get Job 
-This is a search job from timesjob.com. A user defines keyword and other options, the script search jobs from the website and shows all of them to the user. The input choices are Keyword, Number of pages, and location experience.
+## Web Scraping
+### Get Jobs
+This is a search job from timesjob.com. A user defines keyword and other options, the script search jobs from the website and shows all of them to the user. The input choices are Keyword, Number of pages, and location experience. If the user wants to save results, there is an option to save JSON format.
 Keyword(Required): Jobs keywords
 Number of Pages(Optional): How many pages will list
 Location(Optional): Job's location
 Experience(Optional): About Years
+### Get Last Topic
+This script is working for that when the new topic opens the donanimhaber sicak firsatlar, the script gets the topic immediately. The user can see the last opened topic. If a day passed the topic's opened date the topic automatically will delete.
